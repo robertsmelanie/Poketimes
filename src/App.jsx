@@ -10,7 +10,7 @@ import Post from "./components/Post"
 class App extends Component {
   render(){
     return (
-      <BrowserRouter>
+      <BrowserRouter basename="/Poketimes">
       <div className="App">
         <Navbar />
         <Routes>
